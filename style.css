@@ -1,0 +1,397 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    
+}
+.container{
+    height: 3007px;
+    width: 375px;
+    background-color: #FFF;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+    
+}
+.button{
+    height: 48px;
+    width: 150px;
+    left: 0.5px;
+    top: 0px;
+    border-radius: 8px;
+    background-color: #d7e5eb;
+    text-align: center;
+    padding: 9px;
+    padding-left: 14px;
+    
+}
+.button > h1 {
+    height: 26px;
+    width: 122px;
+    left: 14px;
+    top: 11px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.header-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 365px;
+    padding: 27px 24px;
+}
+.main-content >h1{
+    height: 96px;
+    width: 327px;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px; 
+    color: #162542;
+    font:'Barlow';
+    text-transform: uppercase;
+}
+.main-content >p{
+    height: 78px;
+    width: 327px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color:#7B8BAD;
+    padding-top: 24px;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 68px 24px
+}
+.button2{
+    height: 48px;
+    width: 150px;
+    left: 0.5px;
+    top: 0px;
+    border-radius: 8px;
+    background-color: #F16718;
+    text-align: center;
+    padding: 9px;
+    padding-left: 14px;
+}
+.button2 > h1 {
+    height: 26px;
+    width: 122px;
+    left: 14px;
+    top: 11px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.main-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.release{
+    margin-top: 10px;
+    height: 26px;
+    width: 127px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #7B8BAD;
+}
+
+.keybord{
+margin-left: 23px;
+margin-top: 45px;
+border-radius: 10px;
+}
+.partkeybord{
+    margin-left: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.orangekey{
+    margin-top: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+.maintext > h1{
+    text-transform: uppercase;
+}
+.maintext > h1, .compatible > h1, .bluetooth >h1, .battery >h1, .modes >h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;  
+    color: #162542;
+    text-align: center;
+}
+.maintext > p, .compatible > p, .bluetooth >p, .battery >p, .modes >p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #7B8BAD;
+    padding: 24px;
+}
+
+.maintext, .compatible , .bluetooth , .battery , .modes  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.compatible1, .bluetooth2, .battery2, .modes2, .maintext {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footertext {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #7B8BAD;
+    text-align: center;
+    padding-top: 24px; 
+}
+
+.button:hover{
+    height: 50px;
+    width: 150px;
+    background: #162542;
+    border-radius: 8px;
+    color: #FFF;
+}
+.button2:hover{
+    height: 50px;
+    width: 150px;
+    background: #FF9B62;
+    border-radius: 8px;
+    color: #FFF;
+}
+
+/* MEDIA QUERY TABLET  */
+@media screen and (max-width: 766.5px){
+        .keyb1{
+            display: none;
+        }
+        .keytwo, .rect {
+            display: none;
+        }
+}
+@media screen and (min-width: 767.5px){
+    .container{
+        height: 2100px;
+        width: 768px;
+        background-color: #FFF;
+    }
+    .header-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 768px;
+        padding: 27px 24px;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main-button{
+            display: flex;
+            justify-content: space-between;
+            width: 360px;
+            padding: 24px;  
+    }
+     .keybordsimgs, .rect{
+            display: none;
+    }
+    .keyb1{
+        display: flex;
+        margin-left: 445px;
+        margin-top: -380px;
+    }
+    .blackkey{
+        border-radius: 10px;
+    }
+    .keytwo{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px; 
+        gap: 45px;
+    }
+    .key2, .key3 {
+        border-radius: 20px;
+    }
+    .maintext{
+        display: flex;
+        flex-direction: row;
+        padding: 24px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .bluetooth >h1{
+        margin-left: -40px;
+  
+    }
+    .compatible >h1{
+        margin-left: -10px;
+    }
+    .footertext{
+      margin-top:  70px;
+    }
+    .button:hover{
+        height: 50px;
+        width: 150px;
+        background: #162542;
+        border-radius: 8px;
+        color: #FFF;
+    }
+    .button2:hover{
+        height: 50px;
+        width: 150px;
+        background: #FF9B62;
+        border-radius: 8px;
+        color: #FFF;
+    }
+    .compatible1, .bluetooth2,.battery2, .modes2{
+        margin-left: -250px;
+    }
+    .maintext>h1,.compatible >h1, .bluetooth >h1, .battery >h1, .modes >h1{
+        display: flex;
+        text-align: start;
+        width: 300px;
+        /* margin-left: -30px; */
+    }
+    .maintext>p,.compatible >p, .bluetooth >p, .battery >p, .modes2 >p {
+        display: flex;
+        text-align: start;
+    }
+}
+@media screen and (max-width: 1437.5px){
+      .desktopkey1, .rect1{
+          display: none;
+      }
+}
+
+@media screen and (min-width: 1439.5px){
+    .container{
+        height: 2050px;
+        width: 1440px;
+        background-color: #FFF;
+    }
+    .header-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1440px;
+        padding: 70px 160px;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main-button{
+            display: flex;
+            justify-content: space-between;
+            width: 360px;
+            padding: 24px;  
+    }
+    .keyb1, .keytwo{
+        display: none;
+    }
+    .desktopkey1{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 740px;
+        margin-top: -350px;
+        gap: 30px;
+    }
+    .desktopkeybord1{
+        gap: 20px;
+        border-radius: 20px;
+    }
+    .main-container, .main-button {
+        margin-left: 135px ;
+    }
+    .maintext{
+        display: flex;
+        flex-direction: column;
+        margin-top: -320px;
+        margin-left: 900px;
+    }
+    .rect{
+        display: flex;
+        gap: 50px;
+        align-items: flex-end;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+    .rect1, .oragee, .mouse22 {
+        border-radius: 20px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 200px; 
+    }
+    .compatible{
+
+    }
+    .compatible1, .bluetooth2,.battery2, .modes2{
+        margin-left: -250px;
+    }
+    .maintext>h1,.compatible >h1, .bluetooth >h1, .battery >h1, .modes >h1{
+        display: flex;
+        text-align: start;
+        width: 300px;
+        /* margin-left: -30px; */
+    }
+    .maintext>p,.compatible >p, .bluetooth >p, .battery >p, .modes2 >p {
+        display: flex;
+        text-align: start;
+    }
+    .bluetooth >h1{
+        margin-left: -10px;
+    }
+    .battery >h1{
+        margin-left: -10px;
+    }
+    .modes2 >h1 >{
+        /* margin-right: 220px; */
+    }
+    .maintext>h1{
+        margin-left: -80px;
+    }
+    .maintext>p{
+        margin-left: 30px;
+    }
+    .footertext{
+        margin-top: -300px;
+    }
+   
+
+
+}
+    
+
+    
+
+
+
